@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <!-- Karakter Kodlaması ve Uyumluluk -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Temel SEO Meta Etiketleri -->
+  <title>Melike Şevval TÜRKOĞLU | Veri Analisti & Yazılım Geliştirici - Kişisel CV</title>
+  <meta name="description"
+    content="Melike Şevval TÜRKOĞLU - istatistik ve Bilgisayar Bilimleri mezunu , modern web teknolojileri ve yazılım mimarileri üzerine çalışan yazılım geliştirici kişisel CV ve portfolyo web sitesi.">
+  <meta name="author" content="Melike Şevval TÜRKOĞLU">
+  <meta name="keywords"
+    content="CV, Özgeçmiş, Veri Analisti, Yazılım Geliştirici, Web Geliştirme, Frontend, Backend, Portfolio">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#4f46e5">
+
+  <!-- Sosyal Medya & Paylaşım için Open Graph (OG) Etiketleri -->
+  <meta property="og:title" content="Melike Şevval TÜRKOĞLU | Kişisel CV & Portfolyo">
+  <meta property="og:description"
+    content="Eğitim geçmişim, yeteneklerim, projelerim ve profesyonel deneyimlerimi içeren interaktif özgeçmiş sayfası.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://ornek-alan-adiniz.com">
+  <meta property="og:image" content="./assets/avatar.svg">
+  <meta property="og:locale" content="tr_TR">
+
+  <!-- Twitter Kartı Etiketleri -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Melike Şevval TÜRKOĞLU | Kişisel CV">
+  <meta name="twitter:description" content="Eğitim, deneyim ve yeteneklerimin yer aldığı kişisel CV web sitesi.">
+
+  <!-- Yazı Tipleri (Google Fonts: Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Stil Dosyası Bağlantısı -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Arama Motorları İçin Yapısal Veri (JSON-LD Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Melike Şevval TÜRKOĞLU",
+    "jobTitle": "Yazılım Geliştirici",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "İstanbul Teknik Üniversitesi"
+    },
+    "knowsAbout": ["JavaScript", "TypeScript", "React", "Node.js", "Python", "SQL", "Web Standartları"],
+    "email": "mailto:mehmet.yilmaz@example.com",
+    "telephone": "+90 555 123 4567",
+    "url": "https://ornek-alan-adiniz.com"
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Klavye ve Ekran Okuyucu Erişilebilirliği İçin İçeriğe Atla Bağlantısı -->
+  <a href="#ana-icerik" class="skip-link">Doğrudan ana içeriğe atla</a>
+
+  <!-- Sayfa Okuma İlerleme Çubuğu -->
+  <div id="okuma-cubugu" class="reading-progress-bar" aria-hidden="true"></div>
+
+  <!-- ==========================================
+       ÜST BİLGİ & NAVİGASYON (HEADER & NAV)
+       ========================================== -->
+  <header class="site-header" id="ust-menu">
+    <div class="header-container container">
+      <!-- Logo / İsim Alanı -->
+      <a href="#giris" class="header-logo" aria-label="Melike Şevval TÜRKOĞLU Anasayfa">
+        <span class="logo-badge" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="28" height="28" fill="none">
+            <rect width="40" height="40" rx="10" fill="url(#mt-grad)"/>
+            <defs>
+              <linearGradient id="mt-grad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#818cf8"/>
+                <stop offset="100%" stop-color="#6366f1"/>
+              </linearGradient>
+            </defs>
+            <!-- M harfi -->
+            <polyline points="6,28 6,12 13,21 20,12 20,28" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <!-- T harfi -->
+            <line x1="22" y1="12" x2="34" y2="12" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="28" y1="12" x2="28" y2="28" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo-text">Melike TÜRKOĞLU</span>
+      </a>
+
+      <!-- Ana Dolaşım Menüsü -->
+      <nav class="main-nav" id="ana-menu" aria-label="Ana Navigasyon">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#giris" class="nav-link active">Giriş</a></li>
+          <li class="nav-item"><a href="#hakkimda" class="nav-link">Hakkımda</a></li>
+          <li class="nav-item"><a href="#egitim" class="nav-link">Eğitim</a></li>
+          <li class="nav-item"><a href="#deneyim" class="nav-link">Deneyim</a></li>
+          <li class="nav-item"><a href="#yetenekler" class="nav-link">Yetenekler</a></li>
+          <li class="nav-item"><a href="#projeler" class="nav-link">Projeler</a></li>
+          <li class="nav-item"><a href="#iletisim" class="nav-link">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <!-- Aksiyon & Tema Değiştirici Butonlar -->
+      <div class="header-actions">
+        <button id="btn-print" class="btn-secondary btn-sm" type="button"
+          aria-label="Özgeçmişi yazdır veya PDF olarak kaydet">
+          <svg class="btn-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+            fill="currentColor">
+            <path
+              d="M6 9V2h12v7H6zm10-5H8v3h8V4zm2 7a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3-2v8h-3v4H6v-4H3v-8a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3zm-5 10v-4H8v4h8zm3-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v5h3v-2h12v2h3v-5z" />
+          </svg>
+          <span>CV Yazdır / PDF</span>
+        </button>
+        <!-- Mobil Menü Tetikleyici -->
+        <button id="mobile-menu-toggle" class="mobile-toggle" type="button" aria-expanded="false"
+          aria-controls="ana-menu" aria-label="Menüyü aç veya kapat">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       ANA İÇERİK ALANI (MAIN CONTENT)
+       ========================================== -->
+  <main id="ana-icerik" class="main-content">
+
+    <!-- 1. GİRİŞ & PROFİL BÖLÜMÜ (HERO SECTION) -->
+    <section id="giris" class="hero-section" aria-labelledby="giris-baslik">
+      <div class="container hero-grid">
+        <!-- Sol Taraf: Karşılama ve Tanıtım -->
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Yeni Projelere & Kariyer Fırsatlarına Açık</span>
+          </div>
+
+          <!-- Sayfadaki TEK H1 Başlığı (SEO için zorunludur) -->
+          <h1 id="giris-baslik" class="hero-title">
+            Merhaba, ben <span class="gradient-text">Melike Şevval TÜRKOĞLU</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            <strong>Veri Analisti</strong> &bull; <strong>Full Stack Yazılım Geliştirici</strong>
+          </p>
+
+          <p class="hero-description">
+            Bilecik Şeyh Edebali Üniversitesi İstatistik ve Bilgisayar Bilimleri lisans öğrencisiyim. Python, C# ve C
+            dilleriyle yazılım geliştirme temelleri alırken; SPSS ve veri analitiği gibi araçlarla analitik düşünce
+            yapımı güçlendiriyorum. Teorik altyapımı pratik projelerle destekleyen, öğrenmeye ve kendini geliştirmeye
+            odaklı bir öğrenci olarak kariyerime ilk adımı atmaya hazırlanıyorum.
+          </p>
+
+          <!-- İletişim & Aksiyon Düğmeleri -->
+          <div class="hero-buttons">
+            <a href="#iletisim" class="btn-primary">
+              <span>İletişime Geç</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#egitim" class="btn-outline">
+              <span>Eğitim Geçmişim</span>
+            </a>
+          </div>
+
+          <!-- Hızlı İletişim İpuçları / Adres Bilgisi (HTML5 semantic <address>) -->
+          <address class="hero-contact-strip">
+            <div class="contact-pill" title="Konum">
+              <span class="pill-icon" aria-hidden="true">📍</span>
+              <span>Kocaeli, Türkiye</span>
+            </div>
+            <a href="mailto:meliketurkoglu4@gmail.com" class="contact-pill" title="E-posta gönder">
+              <span class="pill-icon" aria-hidden="true">✉️</span>
+              <span>meliketurkoglu4@gmail.com</span>
+            </a>
+
+          </address>
+        </div>
+
+        <!-- Sağ Taraf: Profil Görseli & Fotoğraf Alanı -->
+        <div class="hero-media">
+          <figure class="profile-card">
+            <div class="profile-image-wrapper">
+              <img src="./assets/profil.jpg" alt="Melike Şevval TÜRKOĞLU profil fotoğrafı" class="profile-avatar"
+                id="profile-img" width="220" height="220" loading="eager">
+              <div class="profile-glow" aria-hidden="true"></div>
+            </div>
+            <figcaption class="profile-caption">
+              <span class="profile-name">Melike Şevval TÜRKOĞLU</span>
+              <span class="profile-role">Veri Analisti</span>
+            </figcaption>
+
+            <!-- Hızlı İstatistik Kartları -->
+            <div class="quick-stats-grid">
+              <div class="stat-box">
+                <span class="stat-number">2.7</span>
+                <span class="stat-label"><abbr title="Genel Not Ortalaması">GPA</abbr></span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Veri&Kod Projesi</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Başarılı Proje</span>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. HAKKIMDA BÖLÜMÜ (ABOUT SECTION) -->
+    <section id="hakkimda" class="section bg-alt" aria-labelledby="hakkimda-baslik">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Özet Bilgi</span>
+          <h2 id="hakkimda-baslik" class="section-title">Hakkımda & Profesyonel Profil</h2>
+          <p class="section-subtitle">Tutkularım, çalışma prensiplerim ve hedeflerim</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Sol: Detaylı Açıklama -->
+          <article class="about-text-card">
+            <h3>Teknolojiyle Geleceği İnşa Etmek</h3>
+            <p>
+              Bilecik Şeyh Edebali Üniversitesi İstatistik ve Bilgisayar Bilimleri bölümündeki eğitimim süresince
+              algoritmalar, veri yapıları, istatistiksel modelleme ve modern yazılım mimarilerine derin bir ilgi duydum.
+              Akademik eğitimim boyunca teorik temelleri sağlamlaştırırken, aynı zamanda gerçek dünya projeleri ve web
+              geliştirme çalışmaları yaparak pratik tecrübeler kazanıyorum.
+            </p>
+            <p>
+              Yazılım geliştirmede semantik kod yazımı, erişilebilirlik (a11y), yüksek performans ve modüler tasarım
+              prensiplerini her şeyin önünde tutuyorum.
+              Hem bağımsız çalışabilme hem de takım içinde uyumlu ve yapıcı bir şekilde değer üretebilme becerisine
+              sahibim.
+            </p>
+
+            <!-- Kişisel Nitelikler Listesi -->
+            <div class="traits-container">
+              <ul class="traits-list">
+                <li><span class="check-icon" aria-hidden="true">✔</span> Analitik düşünme ve problem çözme odaklılık
+                </li>
+                <li><span class="check-icon" aria-hidden="true">✔</span> Temiz, test edilebilir ve okunabilir kod
+                  kültürü</li>
+                <li><span class="check-icon" aria-hidden="true">✔</span> Hızlı öğrenme ve yeni teknolojilere kolay
+                  adaptasyon</li>
+                <li><span class="check-icon" aria-hidden="true">✔</span> Güçlü yazılı ve sözlü teknik iletişim</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Sağ: Kişisel Bilgi Detay Tablosu (Semantic Definition List <dl>) -->
+          <aside class="about-meta-card">
+            <h3 class="meta-card-title">Kişisel Bilgi Kartı</h3>
+            <dl class="personal-data-list">
+              <div class="data-row">
+                <dt>Ad Soyad:</dt>
+                <dd>Melike Şevval TÜRKOĞLU</dd>
+
+              </div>
+              <div class="data-row">
+                <dt>Şehir / Ülke:</dt>
+                <dd>Kocaeli, Türkiye</dd>
+              </div>
+              <div class="data-row">
+                <dt>Yabancı Diller:</dt>
+                <dd>
+                  <strong>Türkçe</strong> (Anadil),<br>
+                  <strong>İngilizce</strong> (C1 - İleri Düzey, YDS: 92.5)
+                </dd>
+              </div>
+              <div class="data-row">
+                <dt>Çalışma Şekli:</dt>
+                <dd><span class="badge-success">Hibrit / Uzaktan (Remote) / Ofis</span></dd>
+              </div>
+              <div class="data-row">
+                <dt>İlgi Alanları:</dt>
+                <dd>Açık Kaynak Kod, Makine Öğrenimi, Veri Analizi ve İstatistiksel Modelleme, Veri Yapıları ve
+                  Algoritmik Analizler, Modern Web Geliştirme ve Arayüz Tasarımı.</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. EĞİTİM BÖLÜMÜ (EDUCATION SECTION - VURGULANAN ÖZEL ALAN) -->
+    <section id="egitim" class="section" aria-labelledby="egitim-baslik">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Akademik Geçmiş</span>
+          <h2 id="egitim-baslik" class="section-title">Eğitim ve Akademik Başarılar</h2>
+          <p class="section-subtitle">Üniversite, lise ve katıldığım akademik ihtisas programları</p>
+        </div>
+
+        <!-- Eğitim Zaman Çizelgesi (Timeline) -->
+        <div class="timeline" role="list">
+
+          <!-- Eğitim Maddesi 1: Lisans -->
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <header class="timeline-header">
+                <div class="timeline-meta">
+                  <span class="timeline-period">
+                    <time datetime="2024">Eylül 2024</time> &mdash; <time datetime="2028">Haziran 2028</time>
+                  </span>
+                  <span class="timeline-tag tag-primary">Lisans Derecesi</span>
+                </div>
+                <h3 class="timeline-degree">Veri Analisti (<abbr title="Bachelor of Science">B.Sc.</abbr>)
+                </h3>
+                <h4 class="timeline-institution">Bilecik Şeyh Edebali Üniversitesi &bull; Fen Fakültesi</h4>
+              </header>
+
+              <div class="timeline-body">
+                <p>
+                  İstatistik ve Bilgisayar Bilimleri eğitimi kapsamında veri yapıları, algoritmik analizler,
+                  istatistiksel modelleme ve yazılım geliştirme prensipleri üzerine yoğunlaşıyor; teorik bilgiyi modern
+                  teknolojilerle harmanlayarak çözümler üretiyorum.
+                </p>
+
+                <!-- Başarı & Detay Vurguları -->
+                <div class="academic-highlights">
+                  <div class="highlight-chip">
+                    <strong>GPA:</strong> 2.7 / 4.00
+                  </div>
+                  <div class="highlight-chip">
+                    <strong>Bitirme Tezi:</strong> Henüz yapılmadı.
+                  </div>
+                </div>
+
+                <!-- Alınan Önemli Dersler: HTML5 <details> & <summary> ile İnteraktif Gösterim -->
+                <details class="course-details">
+                  <summary class="course-summary-btn">
+                    <span>Öne Çıkan Tamamlanan Dersleri Gör</span>
+                    <span class="arrow-icon" aria-hidden="true">▾</span>
+                  </summary>
+                  <div class="courses-list-wrapper">
+                    <ul class="courses-grid">
+                      <li>Bilgisayar Programlama </li>
+                      <li>Yapay Zeka </li>
+                      <li>Zaman Serileri </li>
+                      <li>Regresyon Analizi</li>
+                      <li>Yöneylem Araştırması</li>
+                      <li>Matematiksel İstatistik</li>
+                      <li>İstatistiksel Paket Programlama</li>
+                      <li>Olasılık</li>
+                      <li>Analiz</li>
+
+                    </ul>
+                  </div>
+                </details>
+              </div>
+            </div>
+          </article>
+
+
+
+          <!-- Eğitim Maddesi 3: Lise -->
+          <article class="timeline-item" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <header class="timeline-header">
+                <div class="timeline-meta">
+                  <span class="timeline-period">
+                    <time datetime>Eylül 2018</time> &mdash; <time datetime></time>Haziran 2022</time>
+                  </span>
+                  <span class="timeline-tag tag-neutral">Lise Eğitimi</span>
+                </div>
+
+                <h4 class="timeline-institution">Çayırova Ertuğrul Kurdoğlu Anadolu Lisesi</h4>
+              </header>
+
+              <div class="timeline-body">
+
+                <div class="academic-highlights">
+                  <div class="highlight-chip">
+                    <strong>Diploma Notu:</strong> 83,34 / 100
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. İŞ VE STAJ DENEYİMLERİ (EXPERIENCE SECTION) -->
+    <section id="deneyim" class="section bg-alt" aria-labelledby="deneyim-baslik">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Kariyer Yolculuğu</span>
+          <h2 id="deneyim-baslik" class="section-title">İş & Staj Tecrübeleri</h2>
+          <p class="section-subtitle">Geliştirdiğim teknolojiler ve kurumsal sorumluluklarım</p>
+        </div>
+
+        <div class="experience-list">
+
+          <!-- Deneyim 1 -->
+          <article class="exp-card">
+            <header class="exp-card-header">
+              <div class="exp-role-info">
+                <h3 class="exp-role">Frontend / Web Yazılım Geliştirici</h3>
+                <h4 class="exp-company">TechNova Yazılım Çözümleri &bull; Tam Zamanlı</h4>
+              </div>
+              <div class="exp-date-badge">
+                <time datetime="2024-07">Temmuz 2024</time> &mdash; <span class="badge-present">Günümüz</span>
+              </div>
+            </header>
+            <div class="exp-body">
+              <p>
+                Geniş kitlelere hitap eden B2B ve B2C e-ticaret platformunun modern web arayüzlerinin geliştirilmesinde
+                aktif rol oynuyorum.
+              </p>
+              <ul class="exp-tasks">
+                <li>Web sayfalarının Core Web Vitals (<abbr title="Largest Contentful Paint">LCP</abbr>, <abbr
+                    title="Cumulative Layout Shift">CLS</abbr>) performans skorlarını %35 oranında iyileştirdim.</li>
+                <li>Erişilebilirlik (WCAG 2.1 AA) standartlarına tam uyumlu modüler UI bileşen kütüphanesi oluşturdum.
+                </li>
+                <li>RESTful ve GraphQL API entegrasyonları kurarak sayfa yükleme sürelerini kısalttım.</li>
+              </ul>
+              <div class="tech-tags" aria-label="Kullanılan Teknolojiler">
+                <span class="tag">HTML5 Semantic</span>
+                <span class="tag">Modern CSS3</span>
+                <span class="tag">JavaScript (ES6+)</span>
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Git & CI/CD</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Deneyim 2 -->
+          <article class="exp-card">
+            <header class="exp-card-header">
+              <div class="exp-role-info">
+                <h3 class="exp-role">Yazılım Mühendisliği Stajyeri</h3>
+                <h4 class="exp-company">Global Finans Teknolojileri A.Ş. &bull; Yaz Stajı</h4>
+              </div>
+              <div class="exp-date-badge">
+                <time datetime="2023-06">Haziran 2023</time> &mdash; <time datetime="2023-09">Eylül 2023</time>
+              </div>
+            </header>
+            <div class="exp-body">
+              <p>
+                Bankacılık açık veri protokolleri için veri görselleştirme panelleri ve arka plan veri işleme
+                servislerinde çalıştım.
+              </p>
+              <ul class="exp-tasks">
+                <li>Finansal işlem geçmişini anlık grafiklerle gösteren interaktif dashboard geliştirdim.</li>
+                <li>Python ve SQL kullanarak veri tutarlılık kontrollerini otomatik hale getiren test senaryoları
+                  yazdım.</li>
+              </ul>
+              <div class="tech-tags" aria-label="Kullanılan Teknolojiler">
+                <span class="tag">Python</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Chart.js</span>
+                <span class="tag">Docker</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. YETENEKLER BÖLÜMÜ (SKILLS SECTION) -->
+    <section id="yetenekler" class="section" aria-labelledby="yetenekler-baslik">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Yetkinlikler</span>
+          <h2 id="yetenekler-baslik" class="section-title">Teknik Yetenekler & Uzmanlıklar</h2>
+          <p class="section-subtitle">Kullandığım araçlar, diller ve metodolojiler</p>
+        </div>
+
+        <!-- Yetenek Filtre Butonları -->
+        <div class="skill-filters" role="tablist" aria-label="Yetenek Kategorileri">
+          <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">Tümü</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="web">Web & HTML/CSS</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="prog">Programlama & Veri</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="tools">Araçlar & DevOps</button>
+        </div>
+
+        <div class="skills-grid" id="skills-container">
+
+          <!-- Yetenek Grubu 1: Web & Semantik HTML -->
+          <div class="skill-category-card" data-category="web">
+            <h3 class="category-title">
+              <span class="category-icon" aria-hidden="true">🌐</span> Web & Semantik Teknolojiler
+            </h3>
+            <ul class="skill-bars-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Semantik HTML5 & a11y (Erişilebilirlik)</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="Semantik HTML5 seviyesi">
+                  <div class="meter-fill" style="--val: 95%;"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Modern CSS3 (Flexbox, Grid, Animasyonlar)</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="Modern CSS3 seviyesi">
+                  <div class="meter-fill" style="--val: 90%;"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript (ES6+) & Modern DOM API</span>
+                  <span class="skill-pct">88%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="JavaScript seviyesi">
+                  <div class="meter-fill" style="--val: 88%;"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Responsive (Mobil Uyumlu) Tasarım</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="Mobil uyumluluk seviyesi">
+                  <div class="meter-fill" style="--val: 95%;"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Yetenek Grubu 2: Programlama Dilleri & Backend -->
+          <div class="skill-category-card" data-category="prog">
+            <h3 class="category-title">
+              <span class="category-icon" aria-hidden="true">⚙️</span> Diller & Veritabanı
+            </h3>
+            <ul class="skill-bars-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">TypeScript</span>
+                  <span class="skill-pct">82%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="TypeScript seviyesi">
+                  <div class="meter-fill" style="--val: 82%;"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python & Algoritma Geliştirme</span>
+                  <span class="skill-pct">85%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="Python seviyesi">
+                  <div class="meter-fill" style="--val: 85%;"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL (PostgreSQL, MySQL) & ORM</span>
+                  <span class="skill-pct">80%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="SQL seviyesi">
+                  <div class="meter-fill" style="--val: 80%;"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Node.js & REST API Tasarımı</span>
+                  <span class="skill-pct">82%</span>
+                </div>
+                <div class="meter-track" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"
+                  aria-label="Node.js seviyesi">
+                  <div class="meter-fill" style="--val: 82%;"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Yetenek Grubu 3: Araçlar & Metodolojiler -->
+          <div class="skill-category-card" data-category="tools">
+            <h3 class="category-title">
+              <span class="category-icon" aria-hidden="true">🛠️</span> Araçlar, DevOps & Metotlar
+            </h3>
+            <div class="badges-wrapper">
+              <span class="skill-badge">Git & GitHub</span>
+              <span class="skill-badge">Docker & Konteynerleştirme</span>
+              <span class="skill-badge">Linux & Bash Scripting</span>
+              <span class="skill-badge">Figma (UI/UX İnceleme)</span>
+              <span class="skill-badge">Postman / API Testi</span>
+              <span class="skill-badge">Webpack / Vite</span>
+              <span class="skill-badge">Agile / Scrum Metodolojisi</span>
+              <span class="skill-badge">Jest & Birim Testleri</span>
+              <span class="skill-badge">SEO & Core Web Vitals</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PROJELER VE SERTİFİKALAR (PROJECTS & CERTIFICATES) -->
+    <section id="projeler" class="section bg-alt" aria-labelledby="projeler-baslik">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Çalışmalarım</span>
+          <h2 id="projeler-baslik" class="section-title">Öne Çıkan Projeler & Sertifikalar</h2>
+          <p class="section-subtitle">Geliştirdiğim açık kaynak ve bağımsız projeler</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Proje 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-type">Web Uygulaması &bull; Açık Kaynak</span>
+              <h3 class="project-name">EduTrack: Öğrenci ve Ders Yönetim Portalı</h3>
+            </div>
+            <p class="project-desc">
+              Üniversite öğrencilerinin ders programlarını, ödev teslim tarihlerini ve not ortalamalarını gerçek zamanlı
+              hesaplayıp takip etmelerini sağlayan tam fonksiyonel web uygulaması.
+            </p>
+            <ul class="project-features">
+              <li>PWA (Progressive Web App) desteği ile çevrimdışı çalışabilme</li>
+              <li>Dinamik GPA simülatörü ve etkileşimli takvim entegrasyonu</li>
+              <li>%100 semantik HTML5 ve klavye dostu erişilebilir arayüz</li>
+            </ul>
+            <footer class="project-footer">
+              <div class="tech-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Vanilla JS</span>
+                <span class="tag">LocalStorage</span>
+              </div>
+              <div class="project-links">
+                <a href="#projeler" class="link-btn" title="Canlı Demo İncele">Canlı Demo ↗</a>
+                <a href="#projeler" class="link-btn" title="Kaynak Kodları Gör">GitHub ↗</a>
+              </div>
+            </footer>
+          </article>
+
+          <!-- Proje 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-type">Arka Uç & Veri &bull; Bitirme Projesi</span>
+              <h3 class="project-name">Algoritmik Rota & Lojistik Optimizasyon Servisi</h3>
+            </div>
+            <p class="project-desc">
+              Graf algoritmalarını (Dijkstra ve A*) kullanarak kuryeler için en kısa ve trafik yoğunluğuna göre dinamik
+              optimize edilmiş rotaları üreten yüksek performanslı mikroservis.
+            </p>
+            <ul class="project-features">
+              <li>RESTful API uç noktaları ve Swagger/OpenAPI dökümantasyonu</li>
+              <li>Dockerize edilmiş mimari ve otomatik test boru hatları</li>
+            </ul>
+            <footer class="project-footer">
+              <div class="tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Docker</span>
+              </div>
+              <div class="project-links">
+                <a href="#projeler" class="link-btn">Rapor & Demo ↗</a>
+                <a href="#projeler" class="link-btn">GitHub ↗</a>
+              </div>
+            </footer>
+          </article>
+
+        </div>
+
+        <!-- Sertifikalar Bölümü -->
+        <div class="certificates-section">
+          <h3 class="cert-title">Akredite Sertifikalar & Kurslar</h3>
+          <div class="cert-grid">
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">📜</div>
+              <div class="cert-content">
+                <h4>Meta Front-End Developer Professional Certificate</h4>
+                <p class="cert-issuer">Coursera & Meta &bull; <time datetime="2023-11">Kasım 2023</time></p>
+                <span class="cert-id">Doğrulama Kimliği: META-FE-987412</span>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">📜</div>
+              <div class="cert-content">
+                <h4>Google Web Vitals & Performance Optimization</h4>
+                <p class="cert-issuer">web.dev by Google &bull; <time datetime="2024-03">Mart 2024</time></p>
+                <span class="cert-id">Doğrulama Kimliği: GGL-PERF-554109</span>
+              </div>
+            </div>
+            <div class="cert-card">
+              <div class="cert-icon" aria-hidden="true">📜</div>
+              <div class="cert-content">
+                <h4>Problem Solving (Advanced) & Python Certification</h4>
+                <p class="cert-issuer">HackerRank &bull; <time datetime="2023-04">Nisan 2023</time></p>
+                <span class="cert-id">Doğrulama Kimliği: HR-ADV-310822</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. İLETİŞİM BÖLÜMÜ (CONTACT SECTION) -->
+    <section id="iletisim" class="section" aria-labelledby="iletisim-baslik">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Bana Ulaşın</span>
+          <h2 id="iletisim-baslik" class="section-title">İletişime Geçin</h2>
+          <p class="section-subtitle">Projeler, iş fırsatları veya sadece bir merhaba demek için yazabilirsiniz</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Sol Blok: İletişim Bilgileri Kartı -->
+          <div class="contact-info-card">
+            <h3>Doğrudan İletişim</h3>
+            <p>Mail atarak ulaşabilirsiniz.</p>
+
+            <div class="contact-methods-list">
+              <div class="method-item">
+                <span class="method-icon" aria-hidden="true">📧</span>
+                <div class="method-details">
+                  <span class="method-label">E-Posta:</span>
+                  <a href="mailto:meliketurkoglu4@gmail.com" class="method-value">meliketurkoglu4@gmail.com</a>
+                </div>
+                <button class="btn-copy" type="button" data-copy="meliketurkoglu4@gmail.com" title="E-postayı kopyala"
+                  aria-label="E-posta adresini panoya kopyala">Kopyala</button>
+              </div>
+            </div>
+
+            <!-- Sosyal Medya Profil Bağlantıları -->
+            <div class="social-links-box">
+              <h4>Sosyal &amp; Profesyonel Ağlar</h4>
+              <div class="social-buttons">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+                  aria-label="LinkedIn profilimi ziyaret et">
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+                  aria-label="GitHub profilimi incele">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sağ Blok: İletişim Formu -->
+          <div class="contact-form-card">
+            <h3>Mesaj Bırakın</h3>
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name">Adınız ve Soyadınız <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="Örn: Duru Yılmaz"
+                  required autocomplete="name">
+                <span class="form-error-msg" id="name-error" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">E-Posta Adresiniz <span class="required" aria-hidden="true">*</span></label>
+                <input type="email" id="form-email" name="email" class="form-input"
+                  placeholder="Örn: duruyılmaz@example.com" required autocomplete="email">
+                <span class="form-error-msg" id="email-error" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Konu Başlığı</label>
+                <select id="form-subject" name="subject" class="form-input">
+                  <option value="genel">Genel Soru / Tanışma</option>
+                  <option value="is-teklifi">İş / Proje Teklifi</option>
+                  <option value="freelance">Freelance Web Geliştirme</option>
+                  <option value="akademik">Akademik / Mentorluk</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Mesajınız <span class="required" aria-hidden="true">*</span></label>
+                <textarea id="form-message" name="message" class="form-input form-textarea" rows="5"
+                  placeholder="Mesajınızı buraya detaylıca yazabilirsiniz..." required></textarea>
+                <span class="form-error-msg" id="msg-error" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" id="form-submit-btn" class="btn-primary btn-block">
+                <span>Mesajı Gönder</span>
+                <span class="btn-icon" aria-hidden="true">✉️</span>
+              </button>
+
+              <div id="form-feedback" class="form-feedback-message" role="alert" aria-live="assertive" hidden></div>
+            </form>
+          </div>
+        </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       ALT BİLGİ (FOOTER)
+       ========================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p class="footer-copy">
+          &copy; <time datetime="2026">2026</time> <strong>Melike Şevval TÜRKOĞLU</strong>. Tüm hakları saklıdır.
+        </p>
+        <p class="footer-tech-note">
+          Bu web sitesi, modern <strong>semantik HTML5</strong>, saf CSS3 ve performans odaklı JavaScript ile
+          tasarlanmıştır.
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#ust-menu" class="back-to-top" id="btn-back-to-top" aria-label="Sayfanın en başına dön">
+          <span>Yukarı Çık</span>
+          <span class="arrow-up" aria-hidden="true">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Bildirimi (Panoya Kopyalama vb. için) -->
+  <div id="toast-notification" class="toast-notification" role="status" aria-live="polite" hidden></div>
+
+  <!-- JavaScript Dosyası Bağlantısı -->
+  <script src="./script.js"></script>
+</body>
+
+</html>

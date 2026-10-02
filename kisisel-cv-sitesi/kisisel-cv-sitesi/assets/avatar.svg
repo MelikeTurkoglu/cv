@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffeaa7" />
+      <stop offset="100%" stop-color="#fdcb6e" />
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d3436" />
+      <stop offset="100%" stop-color="#1e272e" />
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Arka Plan Çemberi -->
+  <circle cx="100" cy="100" r="98" fill="url(#bgGrad)" />
+
+  <!-- İç Halka Dekoru -->
+  <circle cx="100" cy="100" r="92" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-dasharray="6,4" />
+
+  <g filter="url(#shadow)">
+    <!-- Arka Saç (Uzun saç katmanı) -->
+    <path d="M55 80 C50 125, 52 165, 70 178 C74 150, 75 125, 75 95 Z" fill="url(#hairGrad)" />
+    <path d="M145 80 C150 125, 148 165, 130 178 C126 150, 125 125, 125 95 Z" fill="url(#hairGrad)" />
+
+    <!-- Gövde / Kıyafet -->
+    <path d="M44 186 C44 146, 68 138, 100 138 C132 138, 156 146, 156 186 Z" fill="url(#shirtGrad)" />
+    
+    <!-- Yaka / Kolye Detayı -->
+    <polygon points="100,154 86,138 114,138" fill="#ffffff" />
+    <circle cx="100" cy="156" r="3" fill="#fbbf24" />
+
+    <!-- Boyun -->
+    <rect x="89" y="112" width="22" height="28" rx="6" fill="#fdcb6e" />
+    <path d="M89 124 C95 130, 105 130, 111 124 Z" fill="#e17055" opacity="0.3" />
+
+    <!-- Kafa & Yüz -->
+    <ellipse cx="100" cy="84" rx="34" ry="40" fill="url(#skinGrad)" />
+
+    <!-- Ön Saçlar ve Kakül -->
+    <path d="M66 76 C65 42, 80 32, 100 32 C120 32, 135 42, 134 76 C134 86, 128 72, 118 64 C104 60, 94 62, 80 66 C72 70, 66 82, 66 76 Z" fill="url(#hairGrad)" />
+
+    <!-- Gözler -->
+    <circle cx="86" cy="85" r="3.5" fill="#2d3436" />
+    <circle cx="114" cy="85" r="3.5" fill="#2d3436" />
+    <circle cx="87.2" cy="83.8" r="1.2" fill="#ffffff" />
+    <circle cx="115.2" cy="83.8" r="1.2" fill="#ffffff" />
+
+    <!-- Kirpikler -->
+    <path d="M82 81 L86 83 L83 80" stroke="#2d3436" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    <path d="M118 81 L114 83 L117 80" stroke="#2d3436" stroke-width="1.5" stroke-linecap="round" fill="none" />
+
+    <!-- Kaşlar -->
+    <path d="M78 78 Q86 74 93 78" stroke="#2d3436" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    <path d="M107 78 Q114 74 122 78" stroke="#2d3436" stroke-width="2.2" stroke-linecap="round" fill="none" />
+
+    <!-- Burun -->
+    <path d="M99 85 L98 93 L102 93" stroke="#e17055" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Gülümseme / Dudak -->
+    <path d="M89 104 Q100 114 111 104" stroke="#d63031" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+    <!-- Şık Küpeler -->
+    <circle cx="65" cy="92" r="3" fill="#fbbf24" />
+    <circle cx="135" cy="92" r="3" fill="#fbbf24" />
+  </g>
+</svg>
